@@ -13,7 +13,7 @@ namespace VRTK
     /// <example>
     /// `VRTK/Examples/042_CameraRig_MoveInPlace` demonstrates how the user can move and traverse colliders by either swinging the controllers in a walking fashion or by running on the spot utilisng the head bob for movement.
     /// </example>
-    [RequireComponent(typeof(VRTK_PlayerPresence))]
+    [RequireComponent(typeof(VRTK_BodyPhysics))]
     public class VRTK_MoveInPlace : MonoBehaviour
     {
         /// <summary>
